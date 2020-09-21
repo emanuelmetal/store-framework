@@ -1,7 +1,6 @@
 {
   "store.product": {
     "children": [
-      "rich-text#desktop",
       "breadcrumb",
       "flex-layout.row#main",
       "shelf.relatedProducts"
@@ -61,7 +60,8 @@
   "sku-selector": {
     "props": {
       "initialSelection": "empty",
-      "showValueForVariation": "image"
+      "showValueForVariation": "image",
+      "showVariationsErrorMessage": true
     }
   }
 }
