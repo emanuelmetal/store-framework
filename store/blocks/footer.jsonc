@@ -25,7 +25,10 @@
     "children": ["social-networks"]
   },
   "accepted-payment-methods": {
-    "props": ["mastercard", "visa", "diners club"]
+    "props":{
+      "paymentMethods": ["mastercard", "visa", "diners club"],
+      "showInColor": true
+    }
   },
   "social-networks": {
     "props": {
